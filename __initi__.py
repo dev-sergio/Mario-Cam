@@ -90,7 +90,7 @@ def camera():
         scaleFactor=1.1,
         minNeighbors=5,
         minSize=(150, 150),
-        flags=cv2.cv.CV_HAAR_SCALE_IMAGE
+        flags=cv2.CASCADE_SCALE_IMAGE
     )
 
     # ==========================================
